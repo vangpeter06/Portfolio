@@ -5,8 +5,8 @@ import {FiGithub} from 'react-icons/fi';
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-      <a href="https://linkedin.com" target="__blank"><BsLinkedin /></a>
-      <a href="https://github.com" target="__blank"><FiGithub /></a>
+      <a href="https://www.linkedin.com/in/peter-vang-portland/" target="__blank"><BsLinkedin /></a>
+      <a href="https://github.com/vangpeter06" target="__blank"><FiGithub /></a>
     </div>
   )
 }
