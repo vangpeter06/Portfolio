@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <AiOutlineMail />
+            <AiOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>vang_peter06@yahoo.com</h5>
             <a href="mailto:vang_peter06@yahoo.com" target='_blank'>Send a message</a>
@@ -21,7 +21,7 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-          <button type='submit' className='btn btn-primary'></button>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
     </section>
