@@ -17,6 +17,10 @@
   background: transparent;
 }
 
+.portfolio__image {
+  height: 19rem;
+}
+
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
@@ -38,6 +42,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+  
 }
 
 /*============ Media queries (small devices) =-========*/
