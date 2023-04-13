@@ -49,6 +49,11 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.me img { 
+  height: 24rem;
+  width: 20rem;
+}
+
 /* =============== Scroll Down ============= */
 .scroll__down {
   position: absolute;
