@@ -1,11 +1,11 @@
 import React from 'react';
 import './portfolio.css';
-import Image1 from '../../assets/portfolio1.jpg';
 import Capstone from '../../assets/capstone.png';
 import Wrench from '../../assets/wrenchknight.png';
 import Arkham from '../../assets/Arkham.png';
 import Program from '../../assets/Program.png';
 import Student from '../../assets/student_logs.PNG';
+import Sip from '../../assets/sip&spin.PNG';
 
 const Portfolio = () => {
   return (
@@ -71,12 +71,12 @@ const Portfolio = () => {
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             {/* portfolio image goes here */}
-            <img className='portfolio__image' src={Image1} alt="" />
+            <img className='portfolio__image' src={Sip} alt="" />
           </div>
-          <h3>This is my portfolio item name</h3>
+          <h3>Sip & Spin</h3>
          <div className="portfolio__item-cta">
-         <a href="https://github.com" className='btn' target='_blank'>Github</a>
-          <a href="https://.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+         <a href="https://github.com/vangpeter06/Sip-and-Spin" className='btn' target='_blank'>Github</a>
+          <a href="https://vangpeter06.github.io/Sip-and-Spin/" className='btn btn-primary' target='_blank'>Live Demo</a>
          </div>
         </article>
       </div>
